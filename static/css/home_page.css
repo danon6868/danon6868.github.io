@@ -189,4 +189,17 @@ figure.effect-bubba:hover img {
     width: 24rem;
     height: 24rem;
     border: 2px solid #000000;
+    object-fit: cover;
+}
+
+.pub-img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.pub-img-contain {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
 }
